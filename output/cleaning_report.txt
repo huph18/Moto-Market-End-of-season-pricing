@@ -1,0 +1,41 @@
+CLEANING REPORT
+============================================================
+
+Row counts by step (listing-days):
+        108  raw listing-days loaded
+        108  after removing duplicate listing-days   (-0)
+        108  after keeping US listings priced in USD   (-0)
+        108  after dropping auction-only listings (bid, not asking price)   (-0)
+        108  after dropping non-rideable listings (parts bikes, salvage, toys)   (-0)
+        101  after requiring title to match the searched model   (-7)
+        101  after keeping prices $1,500-$60,000   (-0)
+
+Snapshots:            1 (2026-11-09 to 2026-11-09)
+Missing snapshot days: none
+Unique listings:      101
+Listing-days:         101
+Model year known:     100% of listing-days
+Mileage known:        100% of listing-days
+Listing-days with a price cut: 0
+
+Unique listings by region:
+region
+warm     66
+other    30
+snow      5
+
+Unique listings by model and region:
+region              other  snow  warm  All
+model                                     
+BMW S1000RR             2     1     9   12
+Ducati Panigale V2      2     0     4    6
+Honda CBR1000RR         6     0     4   10
+Honda CBR600RR          2     0     6    8
+Kawasaki ZX-10R         1     0     1    2
+Kawasaki ZX-6R          0     0     5    5
+Suzuki GSX-R600         4     1     7   12
+Suzuki GSX-R750         5     0     1    6
+Yamaha R1               5     0     9   14
+Yamaha R6               1     2    17   20
+Yamaha R7               2     1     3    6
+All                    30     5    66  101
